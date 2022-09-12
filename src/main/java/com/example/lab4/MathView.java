@@ -15,7 +15,7 @@ public class MathView extends VerticalLayout {
         NumberField num2 = new NumberField("Number 2");
         TextField ans = new TextField("Answer");
         HorizontalLayout hl = new HorizontalLayout();
-        Button btn1 = new Button("Vaadin button");
+        Button btn1 = new Button("Add");
         Button btn2 = new Button("Vaadin button");
         Button btn3 = new Button("Vaadin button");
         btn1.addClickListener(buttonClickEvent -> {
