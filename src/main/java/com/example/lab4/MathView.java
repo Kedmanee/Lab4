@@ -13,8 +13,12 @@ import reactor.core.publisher.Mono;
 public class MathView extends VerticalLayout {
     public MathView() {
         NumberField num1 = new NumberField("Number 1");
+        num1.getStyle().set("width", "515px");
+
         NumberField num2 = new NumberField("Number 2");
+        num2.getStyle().set("width", "515px");
         TextField ans = new TextField("Answer");
+        ans.getStyle().set("width", "515px");
         HorizontalLayout hl = new HorizontalLayout();
         Button btn1 = new Button("+");
         Button btn2 = new Button("-");
